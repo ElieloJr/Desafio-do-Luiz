@@ -1,0 +1,12 @@
+#btnAdd{
+    margin: 10px 20px;
+
+}
+
+.container {
+    float: left;
+    margin-right: 500px;
+    border-radius: 10px;
+    padding-top: 10px;
+    background: rgb(53, 52, 52);
+}
