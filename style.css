@@ -1,6 +1,11 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: bolder;
+}
 #btnAdd{
     margin: 10px 20px;
-
 }
 
 .container {

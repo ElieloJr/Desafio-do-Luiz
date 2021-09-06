@@ -9,6 +9,7 @@ function showAlert(type, text) {
     setInterval(function(){
         alertPlaceholder.removeChild(wrapper)
     }, 3000)
+    
 }
 
 // Alerta dados dos alunos

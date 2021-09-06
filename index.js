@@ -29,7 +29,7 @@ function updateAlunosList() {
     let list = document.getElementById("items")
     var alunoEntries = ""
     self.alunos.forEach(aluno => {
-        alunoEntries += `<tr><td>${aluno.first_name}</td><td>${aluno.last_name}</td><td>${aluno.email}</td><td>${aluno.phone}</td><td><button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick="editAluno(${aluno.id})">Editar</button></td><td><button onClick="apagaAluno(${aluno.id})" class="btn btn-danger">Apagar</button></td><td><button onClick="alertaAluno(${aluno.id})" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver</button></td></tr>`
+        alunoEntries += `<tr><td>${aluno.first_name}</td><td>${aluno.last_name}</td><td>${aluno.email}</td><td>${aluno.phone}</td><td><button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick="editAluno(${aluno.id})">Editar</button></td><td><button onClick="apagaAluno(${aluno.id})" class="btn btn-danger">Apagar</button></td><td><button onClick="alertaAluno(${aluno.id})" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver Dados</button></td></tr>`
     });
 
     list.innerHTML = alunoEntries
